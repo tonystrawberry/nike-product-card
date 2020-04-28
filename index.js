@@ -57,7 +57,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
   let x = window.matchMedia("(max-width: 1000px)");
 
   function changeHeight(){
-    console.log("changeheight");
     if (x.matches){
       // shoeBackgroundの新しいheight計算
       let shoeHeight = shoes[0].offsetHeight; // offsetHeight = elementのheight + elementのpadding + elementのborder
